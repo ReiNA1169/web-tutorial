@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans' , sans-serif;
+}
+header 
+{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    backdrop-filter: blur(20px);
+
+}
+header .logo
+{
+  position: relative; 
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+header ul {
+
+ position: relative;
+ display:  flex;
+ gap: 40px;
+}
+
+header ul li
+{
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+header ul li a 
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+header ul li.active a,
+header ul li:hover a
+{
+    color:#8b3acd;
+}
+
+#home 
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh ;
+    background: #302c2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+#home::before 
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 25vw;
+    background: #8b3acd;
+    border-top-right-radius: 30vw;
+    border-top-left-radius: 30vw;
+
+}
+
+
+#home  .content
+{
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 10px;
+max-width: 650px;
+z-index: 10;
+}
+
+#home  .content h2
+{
+    position: relative;
+    font-size: 4em;
+    color: #8b3acd;
+}
+
+#home  .content p 
+{
+    position: relative;
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.btn
+{
+    position: relative;
+    display: inline-block;
+    font-size: 1.25em;
+    max-width: 200px;
+    background: #8b3acd;
+    color: #222;
+    text-align: center;
+    padding: 18px 30px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin-top: 10px;
+}
+#home .ei
+{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    max-height: 90vh;
+
+}
+
+#Skill,
+#about,
+#Over View
+{
+    position: relative;
+    background:#2e2d2d;
+    padding: 120px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secText
+
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.secText h2
+
+{
+ font-size: 2em;
+ color: #ffff;
+}
+
+.secText p 
+{
+    max-width: 700px;
+    text-align: center;
+    color: #aaa;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#Skill .content
+
+{
+position: relative;
+text-align:center;
+display: inline-block;
+margin: 25px 10px;
+}
+
+#Skill .content .Skill2 {
+
+    
+    padding: 10px;
+    border: 2px solid #0000;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    box-sizing: border-box; 
+
+}
+#Skill .content .Skill2:hover 
+{
+    padding: 9px;
+    border: 2px solid #570771;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
